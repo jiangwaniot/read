@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+<link rel="icon" href="https://weblogin.stanford.edu/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://weblogin.stanford.edu/favicon.ico" type="image/x-icon" />
+
+<script src="/js/jquery-1.11.1.min.js"></script>
+
+<!-- bootstrap -->
+
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
+
+<link type="text/css" href="/css/su-identity.css" rel="stylesheet" />
+
+<!--[if lt IE 9]>
+  <script src="/js/html5.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+  <link rel="stylesheet" type="text/css" href="/css/ie8.css" />
+<![endif]-->
+<!--[if IE 7]>
+  <link rel="stylesheet" type="text/css" href="/css/ie7.css" />
+<![endif]-->
+
+    <script src="/js/login.js"></script>
+        <!-- login CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/login.css" />
+
+    <title>Stanford WebLogin</title>
+
+<script type="text/javascript">
+<!--
+function sf() { document.login.username.focus(); }
+// -->
+</script>
+</head>
+
+<body onload="sf()">
+
+
+
+    <div id="su-wrap">
+      <!-- #su-wrap start -->
+      <div id="su-content">
+        <!-- #su-content start -->
+        <!-- Brandbar snippet start -->
+        <div id="brandbar">
+          <div class="container">
+            <a href="http://www.stanford.edu"> <img src="/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="153" height="22"> </a>
+          </div>
+          <!-- .container end -->
+        </div>
+        <!-- #brandbar end -->
+        <!-- Brandbar snippet end -->
+
+        <div id="header">
+          <div class="container">
+            <div style="margin: 1em 10px 0 0;">
+              <img alt="Stanford University" src="/images/weblogin-header.png">
+              <h1 class="pagetitle">WebLogin</h1>
+            </div>
+          </div>
+          <!-- /.container -->
+        </div>
+
+        <div id="content">
+          <div class="container">
+
+
+
+
+
+<div class="row">
+  <div class="col-md-6">
+
+   <div class="form-container login login-box">
+    <form name="login" method="post" autocomplete="OFF" action="/login" enctype="application/x-www-form-urlencoded" id="login">
+      <p>
+        <input type="hidden" name="RT" value="WNklkimS9WJs41j/yZJVf9mDPp//781s0xO68sHoV8n34b0NftctUe+2++xJqwE9PAolePhBHyIXDsdF+Oyxp+G6Ta9KDZNL+IJwkZT0UOzExtL4kWz3gWlvJBOYLejTOcb6cLoG7dhQfI5T090cjLpAK5vIC1c9y8/I1ydUQUZ2+gjn0o+x68U1UiM5D5aha+aGWZy+4AHJz9DSDDqgdG7WWGDPqe101ZKbkw0ZaOzRAYv0VeONmhVMvHixRa065G1UF5jH80s5wZzdxfGu4aFoDB+aQOW0ZPnwka6lJcjorMfOyQKyeIVXdfPFTD686BC1K+jUoCBnOLIxIK0upMRPwR8=" />
+        <input type="hidden" name="ST" value="WNi103eukJsVeiF5FLFBsLAiTOJMP7apL/wWj6gI8e+kYu8BmaEJ9gewOcKw3u6JsdCbmM1+STCNtCNP4DCXU07FvyAK89aCsnCt/ulQwhoi1V8qrvuEZgvYWHRMkkG/qy1of11e/AcR5oAFDRxR9DIGgdPCtBB/FVOmbUJSpqeligR+jwd9/amXh1j1p7WzXTYMTw==" />
+        <input type="hidden" name="login" value="yes" />
+        <div class="form-input">
+          <label for="username">SUNet ID:</label>
+          <input id="username" name="username" type="text" size="12" maxlength="8" value="" />
+        </div>
+        <div class="form-input">
+        <label for="password">Password:</label>
+        <input id="password" name="password" type="password" size="20" />
+        </div>
+
+        <div class="form-check">
+  
+        <input type="checkbox" name="remember_login" id="remember_login" value="yes" checked="checked" />
+  
+
+        <label for = "remember_login">I use this machine regularly</label><a href="https://itservices.stanford.edu/service/webauth/help" target="_blank" class="help-icon"><img src="/images/help14.png" alt="what is this?" title="When checked, WebLogin will store single sign-on and two-step credentials on this browser"></a>
+      </div>
+        <input name="Submit" value="Login" type="submit" class="submit-button">
+
+    </form>
+   
+    </div>
+</div>
+
+
+<div class="col-md-6 security-info">
+  <p><strong>Important Security Information:</strong> Logging in to WebAuth lets you access other protected Stanford websites with this browser, not just the website you requested.</p>
+      <div class="help">
+
+    </div>
+    <div class="settings">
+    <p><a href="https://itservices.stanford.edu/service/webauth/help" class="more-link"><i class="fa fa-chevron-circle-right"></i> <span>WebLogin Help</span></a></p>
+  <p><a href="/settings" class="more-link" target="settings" onclick="window.open('/settings', 'settings', 'location=0,toolbar=0,scrollbars=1,status=0,menubar=0,directories=0,resizable=1,width=700,height=600')"><i class="fa fa-chevron-circle-right"></i> <span>Advanced settings</span></a></p>
+    </div>
+
+</div>
+</div>
+<div class="row">
+
+<div class="col-md-12">
+   <p class="fineprint">Use of this system is subject to Stanford University's rules and regulations. See the <a href="https://adminguide.stanford.edu/chapter-6" target="_blank" title="Stanford University Administrative Guide">Stanford Administrative Guide</a> for more information.</p>
+</div>
+</div>
+
+            </div>
+            <!-- .container end -->
+          </div>
+          <!-- .content end -->
+
+        </div>
+        <!-- #su-content end -->
+      </div>
+      <!-- #su-wrap end -->
+
+      <!-- Global footer snippet start -->
+      <div id="global-footer">
+    <div class="container">
+      <div class="row">
+	  
+        <div class="col-xs-6 col-sm-2" id="bottom-logo"> <a href="http://www.stanford.edu"> <img width="105" height="49" alt="Stanford University" src="/images/footer-stanford-logo@2x.png"> </a> </div>
+        <!-- #bottom-logo end -->
+        <div class="col-xs-6 col-sm-10" id="bottom-text">
+          <ul class="list-inline">
+            <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+            <li class="maps alt"><a data-ua-label="global-footer" data-ua-action="visit.stanford.edu/plan/maps" class="su-link" href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+            <li class="search-stanford"><a href="http://stanford.edu/search/">Search Stanford</a></li>
+            <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+            <li class="emergency-info"><a data-ua-label="global-footer" class="su-link" href="http://emergency.stanford.edu/">Emergency Info</a></li>
+          </ul>
+	
+        
+		</div>
+		<p class="copyright vcard col-sm-10 col-sm-offset-2 col-xs-12">&copy; <span class="fn org">Stanford University</span>.&nbsp; <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>. <span id="termsofuse"><a data-ua-label="global-footer" data-ua-action="copyright-complaints" class="su-link" href="http://www.stanford.edu/group/security/dmca.html">Copyright Complaints</a>&nbsp;&nbsp;&nbsp;<a data-ua-label="global-footer" data-ua-action="trademark-notice" class="su-link" href="https://adminguide.stanford.edu/chapter-1/subchapter-5/policy-1-5-4">Trademark Notice</a></span></p>
+      </div>
+      <!-- .row end --> 
+    </div>
+    <!-- .container end --> 
+  </div>
+
+      <!-- global-footer end -->
+
+</body>
+</html>
